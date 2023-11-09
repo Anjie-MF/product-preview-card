@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://github.com/Anjie-MF/product-preview-card)
 - Live Site URL: (https://your-live-site-url.com)
 
 ## My process
@@ -69,8 +69,6 @@ On future projects, I will focus on clean HTML structure.
 ## Author
 
 - Frontend Mentor- [@Anjie-MF](https://www.frontendmentor.io/profile/Anjie-MF)
-
-- Linkedin-[Anjie M.F.](www.linkedin.com/in/anjiemay23)
 
 ## Acknowledgments
 
