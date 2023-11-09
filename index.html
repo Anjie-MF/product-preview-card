@@ -19,35 +19,41 @@
 
 <body>
   <main>
-    <div class="perfume-image">
-      <div class="hero">
-        <picture>
-          <source media="(min-width: 650px)" src="images/image-product-desktop.jpg">
-          <source media="(min-width: 300px)" src="images/image-product-desktop.jpg">
-          <img src="images/image-product-mobile.jpg" alt="crystal bottle surrounded by lush leaves">
-        </picture>
-      </div>
-    </div>
-    <div class="perfume-title">
-      <hgroup class="perfume">Perfume</hgroup>
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-    </div>
-    <div class="perfume-description">
-      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.</p>
-    </div>
-    <div class="perfume-prices">
-      <p>$149.99</p>
-      <s>$169.99</s>
-    </div>
-    <div class="cart">
-      <input type="button" value="Add to Cart">
+    <div class="perfume-container">
+      <section class="perfume-image-container">
+        <div class="perfume-image">
+          <div class="hero">
+            <picture>
+              <source media="(min-width: 650px)" srcset="images/image-product-desktop.jpg">
+              <source media="(min-width: 300px)" srcset="images/image-product-desktop.jpg">
+              <img src="images/image-product-mobile.jpg" alt="crystal bottle surrounded by lush leaves">
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="perfume-copyright-container">
+        <div class="perfume-title">
+          <hgroup class="perfume">Perfume</hgroup>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+        </div>
+        <div class="perfume-description">
+          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+        <div class="perfume-prices">
+          <p>$149.99</p>
+          <s>$169.99</s>
+        </div>
+        <div class="cart">
+          <input type="button" value="Add to Cart">
+        </div>
+      </section>
     </div>
   </main>
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Anjie M.F.</a>.
+      Coded by <a href="#">Anjie M.F</a>.
     </div>
   </footer>
 </body>
