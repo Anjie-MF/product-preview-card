@@ -24,7 +24,7 @@ main {
     text-transform: uppercase;
     color: gray;
     letter-spacing: 5px;
-    margin-top: 20px;
+    margin: 20px 0 0 10px;
 }
 
 .perfume-title h1 {
@@ -33,6 +33,7 @@ main {
     font-weight: 700;
     text-transform: capitalize;
     color: black;
+    margin: 20px 0 20px 10px;
 }
 
 .perfume-description p {
@@ -41,6 +42,7 @@ main {
     font-weight: 500;
     color: gray;
     line-height: 20px;
+    margin: 20px 0 20px 10px;
 }
 
 .perfume-prices {
@@ -51,7 +53,7 @@ main {
 .perfume-prices p {
     font-family: 'Fraunces', serif;
     font-size: 2em;
-    padding-left: 20px;
+    padding-left: 10px;
     width: 100%;
     color: #3D8168;
     margin: 0;
@@ -60,7 +62,7 @@ main {
 .perfume-prices s {
     font-family: 'Montserrat', sans-serif;
     font-size: .8em;
-    padding-left: 18px;
+    padding-left: 10px;
     width: 100%;
     color: gray;
 }
